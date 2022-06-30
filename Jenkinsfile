@@ -7,9 +7,7 @@ pipeline{
                 checkout scm
             }
         }
-    }
 
-    stages{
         stage('SAST'){
             steps {
                 sh 'chmod +x gradlew'
@@ -17,5 +15,4 @@ pipeline{
             }
         }
     }
-
 }
