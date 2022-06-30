@@ -23,7 +23,7 @@ jobs:
   - task: SonarCloudPrepare@1
     inputs:
       SonarCloud: 'lab-devsecops'
-      organization: 'julianks'
+      organization: 'devsecopslab1'
       projectKey: 'julianks_pet-clinic'
       projectName: 'pet-clinic'
     displayName: 'Preparing Sonarqube Environment'
